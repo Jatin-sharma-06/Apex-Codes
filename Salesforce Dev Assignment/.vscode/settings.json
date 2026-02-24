@@ -1,0 +1,12 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sf": true,
+    "**/.sfdx": true
+  },
+  "xml.preferences.showSchemaDocumentationType": "none",
+  "apex-ls-ts.commentCollection.enableForFoldingRanges": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.inlineSuggest.edits.renderSideBySide": "never"
+}
