@@ -47,5 +47,25 @@ public with sharing class Assignment2BasicApexTasks {
 
                         *                   *
     */
+
+    public void starPattern() {        
+        for(Integer i = 5; i>=1; i--) {
+            String str = '';
+            for (Integer j = 1; j <= i; j++) {
+                str += '*';
+            }
+            for (Integer j = 1; j <= 2*(5-i) + 1; j++) {
+                if( i == 5 && j == 1) {
+                    str += '*';
+                } else {
+                    str += '_';  
+                }               
+            }
+            for (Integer j = 1; j <= i; j++) {
+                str += '*';
+            }
+            System.debug(str);
+        }
+    }
 }
 
